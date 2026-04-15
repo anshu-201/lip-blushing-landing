@@ -30,7 +30,7 @@ A modern, mobile-first landing page for a lip blushing service in Delhi, built w
    npm run dev
    ```
 4. Open http://localhost:5173
-Direct open in browser:lip-blushing-landing-xi.vercel.app
+
 
 ## Build for Production
 
@@ -59,7 +59,7 @@ src/
 ├── App.css
 └── main.jsx
 ```
-
+##Direct open in browser:- lip-blushing-landing-xi.vercel.app
 ## Customization
 
 - Update phone numbers in components for WhatsApp and call links
