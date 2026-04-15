@@ -1,8 +1,4 @@
 import './BeforeAfter.css';
-
-// Import your before/after images from assets folder
-// Add your images to src/assets/ and import them here
-// Example: import before1 from '../assets/before1.jpg';
 import beforeImage1 from '../assets/Microblading-near-me.webp';
 import afterImage1 from '../assets/Microblading-eyebrows-cost-in-Mumbai.webp';
 import beforeImage2 from '../assets/Microblading-near.webp';

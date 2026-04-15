@@ -17,7 +17,7 @@ const ContactForm = () => {
     else if (!/^\d{10}$/.test(form.phone)) errs.phone = 'Invalid phone number';
     setErrors(errs);
     if (Object.keys(errs).length === 0) {
-      // For demo, alert; in real, send to backend or WhatsApp
+     
       alert('Form submitted! We will contact you soon.');
       setForm({ name: '', phone: '' });
     }
