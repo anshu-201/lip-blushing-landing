@@ -1,0 +1,88 @@
+.contact {
+  padding: 4rem 2rem;
+  background: #fff5f7;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  color: #8b4a5a;
+  font-family: 'Georgia', serif;
+  position: relative;
+}
+
+.contact h2::before,
+.contact h2::after {
+  content: '❋';
+  display: inline-block;
+  color: #d4a574;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+}
+
+.contact form {
+  max-width: 450px;
+  margin: 0 auto;
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(212, 101, 111, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.contact input {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border: 1px solid #e0d0d5;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+  box-sizing: border-box;
+}
+
+.contact input:focus {
+  outline: none;
+  border-color: #d4656f;
+  box-shadow: 0 0 0 3px rgba(212, 101, 111, 0.1);
+}
+
+.contact input::placeholder {
+  color: #a8a8a8;
+}
+
+.error {
+  color: #d4656f;
+  font-size: 0.8rem;
+  display: block;
+  margin-top: 0.35rem;
+  text-align: left;
+}
+
+.contact .btn {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: #d4656f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.contact .btn:hover {
+  background: #c14f57;
+  box-shadow: 0 4px 12px rgba(212, 101, 111, 0.3);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .contact form {
+    padding: 2rem;
+  }
+}

@@ -1,0 +1,71 @@
+.benefits {
+  padding: 4rem 2rem;
+  background: #fff5f7;
+  text-align: center;
+}
+
+.benefits h2 {
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  color: #8b4a5a;
+  font-family: 'Georgia', serif;
+  position: relative;
+}
+
+.benefits h2::before,
+.benefits h2::after {
+  content: '❋';
+  display: inline-block;
+  color: #d4a574;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.benefit {
+  padding: 2rem 1.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(212, 101, 111, 0.08);
+  transition: all 0.3s ease;
+  border-top: 3px solid #f5e6d3;
+}
+
+.benefit:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(212, 101, 111, 0.15);
+}
+
+.icon {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.benefit h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  color: #8b4a5a;
+  font-weight: 600;
+}
+
+.benefit p {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .benefits h2 {
+    font-size: 1.8rem;
+  }
+  .benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

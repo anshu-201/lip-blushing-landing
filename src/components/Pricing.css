@@ -1,0 +1,69 @@
+.pricing {
+  padding: 4rem 2rem;
+  background: #fff5f7;
+  text-align: center;
+}
+
+.pricing h2 {
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  color: #8b4a5a;
+  font-family: 'Georgia', serif;
+  position: relative;
+}
+
+.pricing h2::before,
+.pricing h2::after {
+  content: '❋';
+  display: inline-block;
+  color: #d4a574;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+}
+
+.pricing-content {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+}
+
+.pricing-text {
+  font-size: 1.3rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.price-highlight {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #8b4a5a;
+  font-family: 'Georgia', serif;
+}
+
+.offer-note {
+  font-size: 0.9rem;
+  color: #a8667d;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.pricing .btn.primary {
+  padding: 0.875rem 2.5rem;
+  background: #d4656f;
+  color: white;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.pricing .btn.primary:hover {
+  background: #c14f57;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(212, 101, 111, 0.3);
+}
+
+.pricing-cards {
+  display: none;
+}
